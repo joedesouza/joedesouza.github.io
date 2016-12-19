@@ -1,0 +1,288 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	margin: auto;
+	padding: 0;
+	font: 1em helvetica, sans-serif;
+	min-width: 400px;
+	max-width: 1200px;
+	max-height: 800px;
+	color: #000000; 
+	background-image: url(images/bk_tile.jpg) ;
+	background-size: 20% ; 
+	/*margin: 20px; */
+	}
+header {
+	margin-top:20px;
+	margin-left:3.50%;
+	display: block;
+	font-size: 4em;
+	font-weight: bold;
+	}
+
+/*This is the begining of the navigation*/
+
+nav {
+	margin-left:3.9%;
+}
+
+nav ul {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	list-style-type: none;
+	text-align: left;
+	font-family: helvetica;
+	font-size: 14px;
+	}
+
+nav ul li {
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	display: inline;
+	}
+
+nav ul li a {
+	width: 150px;
+	height: 50px;
+	margin-right: -6px; 
+	padding: 3px 21px;
+	color: black;
+	background-color: #fff;
+	text-decoration: none;
+	border: 2px solid #000000;
+	}
+
+nav ul li a:hover {
+	color: black;
+	background-color: white;
+	}
+.current {
+	background-color: #91b8cf !important;
+	color: #000;
+	text-decoration: none;
+	}
+
+/*This is the end of the navigation*/
+/*This is the main container all below are within*/
+.container {
+	background-color: transparent; 
+	margin-left: 3.9%;
+	/*margin-right: 3.9%;*/
+	margin-top: 15px;
+	margin-bottom: 0%;
+    width: auto;
+    height: 700px;
+    /*overflow: initial;*/
+    float: left;
+    /*border: 1px solid #000000;*/
+	}
+.main {
+	position: relative;
+	background-color: #fff;
+	width: 64.84%;
+	/*margin-left: 3.9%;*/
+  	height:100%;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	float: left;
+	z-index: ;
+	}
+
+img {
+	position: relative;
+	width: auto;
+	margin-left: 0px;
+	margin-right: -10px !important;
+	/*margin-left: 3.9%;*/
+  	height:60%;
+	/*border-bottom: 2px solid #000;*/
+	float: ;
+	z-index: 1;
+	overflow: hidden;
+	}
+
+#one {
+	position: relative;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: -10px !important;
+	/*margin-left: 3.9%;*/
+  	height:auto;
+	/*border-bottom: 2px solid #000;*/
+	float: ;
+	z-index: 1;
+	overflow: hidden;
+	}
+
+.aside{
+	position: relative;
+	background-color: #91b8cf;
+
+	/*margin-right: 3.9%;*/
+	margin-bottom: 0px;
+	height:100%;
+	width: 30.0%;
+	border: 2px solid #000;
+	/*border-left: 2px !important;*/
+	float: left;
+	clear: right;
+	z-index: 2;
+	overflow: scroll;
+	}
+
+section {
+	background-color: #ffffff;
+	position: relative;
+	margin-bottom: 0px;
+	width: auto;
+  	height:auto;
+  	/*width: auto;*/
+	border-top: 2px solid #000000;
+	z-index: ;
+	float: left;
+	clear: none;
+	overflow: hidden;
+	}
+
+   p { 
+	font: .7em helvetica, sans-serif;
+	margin-top: 0;
+	padding-left: 40px;
+	padding-right: 40px; 
+	text-align: left;
+	}
+
+	h5 {
+		background-color: #fff;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		padding-top: 40px;
+		padding-left: 40px;
+	}
+
+	footer {
+		position:relative;
+		font-size: .7em;
+		text-align: center;
+		width: 90%;
+		margin-left: 3.9%;
+		margin-right: 3.9%;
+		/*margin-top: 23%;*/
+		padding-top: 20px;
+		padding-right: 3%;
+		
+		/*border: 2px solid #000000;*/
+		
+		float: left;
+		clear: both;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #6b8899;
+	}
+
+	a:hover {
+		/*text-shadow: .5px .5px #fff; */
+		text-decoration: none;
+		color: #fff;	
+	}
+
+	a:link	{
+		color:#000;
+	}
+
+	a:visited	{
+		color:#000;
+	}
+
+	a:active	{
+		color:#6b8899;
+	}
+
+	a:hover	{
+		/*color:#ff3333 !important;*/
+	}
+
+	a.jf-branding {
+        display: none !important ;
+    }
+    .supernova {
+    	background-color: none !important;
+    }
+/*Above is contained within the main container*/
+
+
+	.nav_gallery {
+		position:relative;
+		width: 100.35%;
+		border-bottom: 0px;
+		border-right: 0px solid #000:;
+		border-collapse: collaspe;
+		top: 0px ;
+		height: 100px;
+		float: left;
+		z-index: 10 ;
+	}
+
+	.gallery_frame {
+		/*position: relative;*/
+		/*height: 50%;*/
+
+	}
+
+	.services_section {
+		background-color: #ffffff;
+		position: relative;
+		margin-bottom: 0px;
+		top: 0px;
+		width: auto;
+  		height:auto;
+		border-top: 2px solid #000000;
+		z-index: ;
+		float: left;
+		clear: none;
+		overflow: hidden;
+	}
+	table {
+		width: 100%;
+		font-size: .75em;
+		text-align: center;
+		border-collapse: collapse;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+	}
+
+	tr {
+		width: 100%;
+		border-top: 2px solid #000;
+		
+		
+	}
+
+	td {
+		width: 20%;
+		border-right: 2px solid #000;
+	}
+	.services {
+		background-color: #91b8cf; 
+	}
+	td:hover {
+		background-color: #91b8cf;
+	}
+	.wowslider-container1 {
+		position: relative !important;
+		height: 100% !important;
+		overflow: none !important;
+		z-index: 10;
+	}
+	h1 {
+		text-align: center;
+		margin-left: 3.9%;
+	}
